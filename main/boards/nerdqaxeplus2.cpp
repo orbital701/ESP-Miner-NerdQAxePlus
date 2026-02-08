@@ -18,7 +18,7 @@ NerdQaxePlus2::NerdQaxePlus2() : NerdQaxePlus() {
     m_defaultAsicFrequency = m_asicFrequency = 600;
     m_defaultAsicVoltageMillis = m_asicVoltageMillis = 1150; // default voltage
     m_absMaxAsicFrequency = 1000;
-    m_absMaxAsicVoltageMillis = 1400;
+    m_absMaxAsicVoltageMillis = 1500;
     m_initVoltageMillis = 1200;
 
     m_pidSettings.targetTemp = 55;
@@ -31,7 +31,7 @@ NerdQaxePlus2::NerdQaxePlus2() : NerdQaxePlus() {
     m_maxVin = 13.0;
     m_minVin = 11.0;
     m_minCurrentA = 0.0f;
-    m_maxCurrentA = 12.0f;
+    m_maxCurrentA = 14.0f;
 
     m_asicMaxDifficulty = 2048;
     m_asicMinDifficulty = 512;
